@@ -12,7 +12,7 @@ documentation = "https://docs.rs/serde_json"
 edition = "2021"
 keywords = ["json", "serde", "serialization"]
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/serde-rs/json"
+repository = "https://github.com/devrosch/sciformats_serde_json"
 rust-version = "1.68"
 
 [dependencies]
