@@ -28,10 +28,10 @@ jobs:
         run: cargo package
       - name: Login to crates.io
         run: cargo login ${{ secrets.CRATES_IO_TOKEN }}
-      - name: "Publish (dry run)"
-        run: cargo publish --dry-run
-      # - name: "Publish"
-      #   run: cargo publish
+      # - name: "Publish (dry run)"
+      #   run: cargo publish --dry-run
+      - name: "Publish"
+        run: cargo publish
 
       # - uses: rust-lang/crates-io-auth-action@v1
       #   id: auth
