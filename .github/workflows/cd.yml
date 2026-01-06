@@ -4,10 +4,7 @@ on:
   push:
     tags:        
       - 'v*'
-  workflow_call:
-    secrets:
-      CRATES_IO_TOKEN:
-        required: true
+  workflow_dispatch:
 
 env:
   CARGO_TERM_COLOR: always
