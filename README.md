@@ -17,7 +17,7 @@ This fork has been inspired by draft PR [#1266](https://github.com/serde-rs/json
 
 ```toml
 [dependencies]
-sciformats_serde_json = "0.0"
+sciformats_serde_json = "1.0"
 ```
 
 ## Example
